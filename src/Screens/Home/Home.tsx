@@ -3,7 +3,9 @@ import { View } from "react-native";
 
 const Home: React.FC = () => {
   return (
-    <View style={{ flex: 1, backgroundColor: "forestgreen" }} />
+    <View style={{ flex: 1, backgroundColor: "magenta" }}>
+
+    </View>
   );
 }
 
