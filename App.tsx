@@ -11,7 +11,7 @@ const HomeStack = createStackNavigator();
 const HomeNavigator = () => {
   return (
     <HomeStack.Navigator headerMode="none">
-      <HomeStack.Screen name="Home" component={Home} />
+      {/* <HomeStack.Screen name="Home" component={Home} /> */}
       <HomeStack.Screen name="TestGround" component={TestGround} />
     </HomeStack.Navigator>
   );

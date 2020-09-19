@@ -24,6 +24,7 @@ export const styleGen = (
       ...StyleSheet.absoluteFillObject,
       width: undefined,
       height: undefined,
+      resizeMode: "cover",
     },
   });
 };
